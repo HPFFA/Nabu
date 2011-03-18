@@ -1,0 +1,319 @@
+
+/* ### -- -- -- -- -- Special Burning Library 3 Styles -- -- -- -- -- ### */
+
+/* 
+
+File: burningLibrary.css
+Copyright 2006-2009 by WoltLab GmbH. 
+
+*/
+
+/* ### -- -- -- -- -- Miscellaneous -- -- -- -- -- ### */
+
+.hot {
+	font-weight: bold;
+}
+
+.interesting a {
+	font-style: italic;
+}
+
+.storyStarter { /* this class is deprecated */
+	font-style: italic;
+}
+
+.topicQuickEdit {
+	display: none;
+	width: 50%;
+}
+
+.headlineContainer h1 {
+	font-size: .7em;
+}
+
+.smallPages {
+	float: left;
+	height: 24px;
+}
+
+.goToNewChapter {
+	margin-left: 3px;
+	float: right;
+}
+
+.topic input, .headlineContainer h1 input  {
+	width: 70%;
+}
+
+.threadSort:after {
+	content: "";
+	height: 0;
+	display: block;
+	clear: both;
+}
+
+.breadCrumbs {
+	text-decoration: none;
+}
+
+/* ### -- -- -- -- -- Library List -- -- -- -- -- ### */
+
+#librarylist, #librarylist ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+#librarylist {
+	margin-bottom: 20px;
+}
+
+#librarylist .librarylistInner {
+	min-height: 16px;
+}
+
+#librarylist .librarylistInner .smallButtons {
+	clear: both;
+}
+
+#librarylist .librarylistInner:after {
+	display: block;
+	clear: both;
+	height: 0;
+	content: "";
+}
+
+#librarylist .container-1, #librarylist .container-2  {
+	background-repeat: no-repeat;
+	background-position: right center;
+}
+
+#librarylist li ul .librarylistTitle .containerIcon {
+	margin-right: 35px;
+}
+
+#librarylist li ul .librarylistTitle .containerContent {
+	margin-right: 70px;
+}
+
+#librarylist li ul li ul .librarylistTitle .containerIcon {
+	margin-right: 70px;
+}
+
+#librarylist li ul li ul .librarylistTitle .containerContent {
+	margin-right: 105px;
+}
+
+#librarylist li ul li ul li ul .librarylistTitle .containerIcon {
+	margin-right: 105px;
+}
+
+#librarylist li ul li ul li ul .librarylistTitle .containerContent {
+	margin-right: 140px;
+}
+
+#librarylist .containerContent:after {
+	content: "";
+	height: 0;
+	display: block;
+	clear: both;
+}
+
+#librarylist .container-1, #librarylist .container-2 {
+	padding: 4px;
+}
+
+.librarylistCols-3 {
+	float: right;
+	width: 60%;
+}
+
+.librarylistCols-2 {
+	float: right;
+	width: 80%;
+}
+
+.librarylistTitleLastChapterStats {
+	float: right;
+	width: 60%;	
+}
+
+.librarylistLastChapter {
+	width: 20%;
+	float: right;
+	overflow: hidden;
+}
+
+.librarylistStats {
+	width: 20%;
+	float: left;
+	font-size: .85em;
+}
+
+.librarylistStats dl, .librarylistStats dd, .librarylistStats dt{
+	margin: 0;
+	padding: 0;
+}
+
+.librarylistStats dt {
+	width: 40%;
+	float: left;
+}
+
+.librarylistStats dd {
+	width: 58%;
+	text-align: left;
+	float: right;
+}
+
+#librarylist .containerHead .libraryTitle {
+	width: 99.5%;
+}
+
+#librarylist .librarylistSublibraries {
+	margin: 3px 0;
+	padding: 0;
+	min-height: 0;
+}
+
+#librarylist .librarylistSublibraries:after {
+	display: block;
+	clear: both;
+	height: 0;
+	content: "";
+}
+
+#librarylist .librarylistSublibraries li {
+	margin-left: 2px;
+	float: right;
+}
+
+#librarylist .librarylistSublibraries li a {
+	white-space: nowrap;
+}
+
+#librarylist .librarylistSublibraries li h4:after, #librarylist .librarylistSublibraries li h5:after, #librarylist .librarylistSublibraries li h6:after {
+	content: ",";
+}
+
+#librarylist .librarylistSublibraries li.last h4:after, #librarylist .librarylistSublibraries li.last h5:after, #librarylist .librarylistSublibraries li.last h6:after {
+	content: "";
+}
+
+.librarylistUserOnline, .moderators {
+	margin-top: 3px;
+}
+
+.librarylistDescription {
+	margin-bottom: 3px;
+}
+
+/* ### -- -- -- Story List -- -- -- ###*/
+
+.tableList .columnLastChapter {
+	width: 30%;
+}
+
+.tableList .columnLastChapter p {
+	text-align: center;
+}
+
+.tableList .columnLastChapter .containerContentSmall p {
+	text-align: right;
+}
+
+.tableList .columnTopic {
+	width: 70%;
+}
+
+.tableList .columnTopic div.topic {
+	overflow: hidden;
+}
+
+.tableList .columnViews, .tableList .columnReplies {
+	text-align: center;
+}
+
+.tableList .columnRating, .tableList .columnLastActivity {
+	white-space: nowrap;
+}
+
+/* ### -- -- -- Similar Stories -- -- -- ###*/
+
+.similarStories {
+	list-style: none;
+	margin-top: 10px;
+	padding: 0;
+}
+
+.similarStories li {
+	min-height: 0;
+}
+
+.similarStories .breadCrumbs {
+	margin: 0;
+}
+
+/* ### -- -- -- Moderation Overview -- -- -- ###*/
+
+.moderationOverview {
+	list-style: none;
+	margin: 15px 0 5px 0 !important;
+	padding: 0;
+}
+
+.moderationOverview:after {
+	content: "";
+	height: 0;
+	display: block;
+	clear: both;
+}
+
+.moderationOverview ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.moderationOverview img {
+	margin-left: 5px;
+	float: right;
+}
+
+.moderationOverview li {
+	margin: 0 0 10px 5%;
+	float: right;
+	width: 40%;
+	min-height: 48px;
+}
+
+.moderationOverview li ul li {
+	margin: 3px 0 3px 0;
+	float: none;
+	width: auto;
+	min-height: 0;
+}
+
+/* ### -- -- -- -- -- Delete Chapter -- -- -- -- -- ### */
+
+.deleteChapter input[type="submit"] {
+	float: left;
+}
+
+.deleteChapter .formField {
+	float: right;
+}
+
+.deleteChapter:after {
+	content: "";
+	height: 0;
+	display: block;
+	clear: both;
+}
+
+#tplPollOverview .itemList, #tplUserMemoEdit .itemList ul {
+	list-style-type: none;
+	padding-right: 0;
+}
+
+/* ### -- -- -- -- -- EOF -- -- -- -- -- ### */
